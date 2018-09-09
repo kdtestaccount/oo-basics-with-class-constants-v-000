@@ -4,9 +4,9 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS.each do |brand_in_constant|
-      if brand
-    BRANDS << brand
+    if BRANDS.include?(brand)
+    else 
+      BRANDS << brand
   end
 
   BRANDS = []
