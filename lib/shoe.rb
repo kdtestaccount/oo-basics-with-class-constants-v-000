@@ -4,6 +4,8 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
+    BRANDS.each do |brand_in_constant|
+      if brand
     BRANDS << brand
   end
 
