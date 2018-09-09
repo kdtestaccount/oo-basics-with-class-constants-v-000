@@ -8,8 +8,8 @@ class Book
     @title = title
   end
 
-  def genre 
-    
+  def genre=(genre)
+      
   end
 
   def turn_page
